@@ -1,0 +1,85 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  color: #333;
+  min-height: 100vh;
+  line-height: 1.6;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #2d6cdf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  background-color: #2d6cdf;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #1c4dad;
+}
+
+/* Input Styles */
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  margin: 5px 0 15px;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #2d6cdf;
+  box-shadow: 0 0 3px #2d6cdf;
+}
+
+/* Code block styling */
+code {
+  background: #f4f4f4;
+  padding: 4px 6px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d6cdf;
+  border-radius: 20px;
+}
